@@ -107,7 +107,7 @@ section{
 }
 
 .course_detail_button_hero:hover{
-    background-color: #e858ae;
+    background-color: #ae1772;
     color: #fff;
     opacity: 1;
     cursor: pointer;
@@ -115,11 +115,77 @@ section{
 
 
 
+.study{
+    height: 50%;
+}
+
+.title_study{
+    color: rgb(232, 17, 232);
+    font-weight: 37.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+hr{
+    width: 7%;
+    margin: 1.5rem auto;
+    margin-bottom: 0.5rem;
+}
+
+
+.study_title_design p{
+    display: flex;
+    justify-content: center;
+}
+
+.study_content{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.study_content img{
+    width: 26%;
+    margin-left: 15%;
+}
+
+.study_content img:hover{
+    transform: rotatex(360deg);
+    transition: transform 0.5s;
+}
+
+.study_content h3{
+    color: rgb(232, 17, 232);
+    margin-left: 15%;
+}
+
+.study_content p{
+    width: 75%;
+    margin-left: 3%;
+}
 
 
 
+.robots{
+    height: 50%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #39065a);
+}
 
+.robots img{
+    border-radius: 2%;
+    width: 23%;
+    margin-top: 1rem;     
+}
 
+.robots_images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.robots img:hover{
+    transform: scale(1.1);
+}
 
 
 
