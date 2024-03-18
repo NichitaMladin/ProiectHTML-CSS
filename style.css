@@ -33,8 +33,8 @@ section{
 
 .navigation_bar{
     display: flex;
-    gap: 2.5rem;
-    margin: 1rem 11rem;
+    gap: 5rem;
+    margin: 1rem 13rem;
 }
 
 .navigation_bar_button{
