@@ -25,8 +25,8 @@ section{
     border: 1px solid black;
 }
 
-/* Sectiunea Hero */
 
+/* Sectiunea Hero */
 .hero{
     background-image: linear-gradient(to left, rgb(156, 12, 161), #39065a);
 }
@@ -44,6 +44,11 @@ section{
     cursor: pointer;
     color: #fff;
     font-size: 1rem;
+}
+
+.navigation_bar_button:hover{
+    background-color: #fff;
+    color: black;
 }
 
 .icon_B{
@@ -64,13 +69,13 @@ section{
 }
 
 .title_hero{
-    position: absolute;
-    top: 13rem;
-    right: 10rem;
     color: #fff;
     font-size: 3.3vw;
     font-weight: 380;
     line-height: 1.1;
+    position: relative;
+    bottom: 19rem;
+    left: 45rem;
 }
 
 .title_hero_row2{
@@ -101,8 +106,8 @@ section{
     color: #fff;
     opacity: 0.5;
     font-size: 1rem;
-    bottom: 8rem;
-    left: 9rem;
+    bottom: 18rem;
+    left: 45rem;
     
 }
 
@@ -114,7 +119,7 @@ section{
 }
 
 
-
+/* Sectiunea study */
 .study{
     height: 50%;
 }
@@ -166,7 +171,7 @@ hr{
 }
 
 
-
+/* Sectiunea robots */
 .robots{
     height: 50%;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #39065a);
@@ -188,10 +193,127 @@ hr{
 }
 
 
+/* Sectiunea work */
+.work{
+    height: 50%;
+}
+
+.title_work{
+    color: rgb(232, 17, 232);
+    font-weight: 37.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.works_image_section{
+    background-image: linear-gradient(to bottom, #9a0f98, #ea0599);
+    box-shadow: 0 20px 30px 0 rgba(154, 15, 152, 0.2);
+    border: 1px;
+    padding: 1.5rem;
+    border-radius: 50%;
+    margin-bottom: -1.7rem;
+}
+
+.work_image_div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.work_number{
+    font-size: 0.6rem;
+    border: 1px solid #ea0599;
+    background-color: #ffffff;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8rem;
+    left: 4.5rem;
+}
+
+.work_image_div span{
+    display: block;
+}
+
+.work_text_description{
+    border: 1px dashed #ea0599;
+    color: #797980;
+    font-size: smaller;
+    text-align: center;
+}
+
+.works_image_section:hover, .work_number:hover{
+    transform: rotatex(360deg);
+    transition: transform 0.5s;
+}
+
+
+/* Learn section */
+.learn{
+    height: 50%;
+    background-image: linear-gradient(to top, rgb(156, 12, 161), #39065a);
+    color: #ffffff;
+}
+
+.learn_principal_foto{
+    width: 25%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.learn_principal_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 13rem;
+    left: 3rem;
+}
+
+.learn_first_paragraph{
+    position: relative;
+    bottom: 10rem;
+    left: 27rem;
+    margin-bottom: -1rem;
+}
+
+.learn_principal_text span{
+    display: block;
+}
+
+.learn_text_paragraph{
+    
+    position: relative;
+    bottom: 4rem;
+    left: 4rem;
+}
+
+.learn_photo{
+    padding-right: 15rem;
+
+}
+
+.rotate:hover{
+    transform: rotatex(360deg);
+    transition: transform 0.5s;
+}
+
+.learn_principal_foto:hover{
+    transform: scale(1.1);
+}
 
 
 
-@media only screen and (max-width: 947px) {
+
+
+
+
+/* @media only screen and (max-width: 947px) {
 
     .title_hero{
         
@@ -276,4 +398,4 @@ hr{
     .gg-menu{
         display: none;
     }
-}
+} */
