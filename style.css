@@ -119,6 +119,8 @@ section{
 }
 
 
+
+
 /* Sectiunea study */
 .study{
     height: 50%;
@@ -171,6 +173,8 @@ hr{
 }
 
 
+
+
 /* Sectiunea robots */
 .robots{
     height: 50%;
@@ -191,6 +195,8 @@ hr{
 .robots img:hover{
     transform: scale(1.1);
 }
+
+
 
 
 /* Sectiunea work */
@@ -252,6 +258,8 @@ hr{
     transition: transform 1s;
 }
 
+
+
 /* Learn section */
 .learn{
     height: 50%;
@@ -305,6 +313,215 @@ hr{
 .learn_principal_foto:hover{
     transform: scale(1.1);
 }
+
+
+
+
+/* Recommend section */
+.recommend{
+    height: 50%;
+}
+
+.title_recommend{
+    color: rgb(232, 17, 232);
+    font-weight: 37.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.recommend_principal_box{
+    border: 1px solid rgb(255, 165, 0);
+    border-radius: 10px;
+    width: 30%;
+}
+
+.recommend_first_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.recommend hr{
+    margin-bottom: 1.5rem;
+}
+
+.recommend_principal_box h4{
+    color: rgb(163, 9, 102);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    margin-top: 0.1rem;
+}
+
+.quote_image{
+    width: 5%;
+    position: relative;
+    bottom: 0.6rem;
+    left: 18rem;
+}
+
+.sensor_image{
+    width: 5%;
+    position: relative;
+    bottom: -2rem;
+    left: 1rem;
+}
+
+.recommend_description{
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
+.recommend_identifier{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3rem;
+}
+
+.recommend_special{
+    text-indent: -0rem;
+}
+
+.recommend_principal_box:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* Prices section */
+.prices{
+    height: 60%;
+}
+
+.title_prices{
+    color: rgb(232, 17, 232);
+    font-weight: 37.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+
+.prices_principal_box{
+    background-image: linear-gradient(to bottom, rgb(156, 12, 161), #39065a);
+    border-radius: 15px;
+    width: 25%;
+    height: 250px;
+    margin-top: 1.6rem;
+}
+
+.prices_principal_box:hover{
+    transform: scale(1.1);
+}
+
+.price_special_bigger_box{
+    height: 280px;
+    margin-top: 0.5rem;
+}
+
+
+.price_first_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.price_main_title hr{
+    margin-bottom: 1rem;
+}
+
+.prices_principal_box p{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.prices_principal_box .price_recommended_paragraph{
+    color: red;
+}
+
+.prices_principal_box span{
+    color: rgb(64, 205, 215);
+}
+
+.prices_principal_box h5{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: -1rem;
+}
+
+.prices_special_h5{
+    text-indent: -1.5rem;
+}
+
+.price_check_mark{
+    position: relative;
+    left: 20%;
+    top: 1.5rem;
+}
+
+.price_sing_up{
+    margin-top: 2rem;
+}
+
+
+
+
+/* Contact section */
+.contact{
+    height: 50%;
+}
+
+.title_contact{
+    color: rgb(232, 17, 232);
+    font-weight: 37.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+input{
+    display: block;
+    margin: 0.5rem 1rem;
+}
+
+textarea{
+    position: relative;
+    left: 12rem;
+    bottom: 4.7rem;
+}
+
+.contact_image{
+    width: 20%;
+    position: relative;
+    right: 17rem;
+    bottom: 10rem;
+}
+
+.contact_image:hover{
+    transform: scale(1.1);
+}
+
+.send_button_contact{
+    padding: 0.2rem 5rem;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #ea0599, #9a0f98);
+    position: relative;
+    bottom: 20rem;
+    left: 30rem;
+}
+
+.contact_image_box{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
 
 
 
