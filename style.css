@@ -49,8 +49,7 @@ section{
 }
 
 .navigation_bar_button:hover{
-    background-color: #fff;
-    color: black;
+    text-decoration: underline;
 }
 
 .icon_B{
