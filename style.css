@@ -555,6 +555,8 @@ a{
 
 
 @media only screen and (max-width: 481px) {
+
+    /* Sectiunea Hero */
     .icon_B{
        display: none;
     }
@@ -619,6 +621,8 @@ a{
 }
 
 @media only screen and (min-width: 481px) {
+    
+    /* Sectiunea Hero */
     .gg-menu{
         display: none;
     }
