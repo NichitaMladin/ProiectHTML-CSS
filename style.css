@@ -26,7 +26,6 @@ section{
     border: none;
 }
 
-
 /* Sectiunea Hero */
 .hero{
     background-image: linear-gradient(to left, rgb(156, 12, 161), #39065a);
@@ -62,6 +61,7 @@ section{
 .principal_picture_hero{
     width: 30%;
     margin: 0 8rem;
+    padding-top: 1.5rem;
     transition: transform 0.3s ease;
 }
 
@@ -120,9 +120,6 @@ section{
     cursor: pointer;
 }
 
-
-
-
 /* Sectiunea study */
 .study{
     height: 50%;
@@ -174,13 +171,18 @@ hr{
     margin-left: 3%;
 }
 
-
-
-
 /* Sectiunea robots */
 .robots{
     height: 50%;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #39065a);
+}
+
+.title_robots{
+    color: rgb(232, 17, 232);
+    font-weight: 37.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
 }
 
 .robots img{
@@ -189,17 +191,14 @@ hr{
     margin-top: 1rem;     
 }
 
-.robots_images{
+.robots_images_column{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
 .robots img:hover{
     transform: scale(1.1);
 }
-
-
-
 
 /* Sectiunea work */
 .work{
@@ -260,8 +259,6 @@ hr{
     transition: transform 1s;
 }
 
-
-
 /* Learn section */
 .learn{
     height: 50%;
@@ -315,9 +312,6 @@ hr{
 .learn_principal_foto:hover{
     transform: scale(1.1);
 }
-
-
-
 
 /* Recommend section */
 .recommend{
@@ -388,10 +382,6 @@ hr{
 .recommend_principal_box:hover{
     transform: scale(1.1);
 }
-
-
-
-
 
 /* Prices section */
 .prices{
@@ -469,9 +459,6 @@ hr{
     margin-top: 2rem;
 }
 
-
-
-
 /* Contact section */
 .contact{
     height: 50%;
@@ -521,9 +508,6 @@ textarea{
     justify-content: flex-end;
 }
 
-
-
-
 /* info section */
 .info{
     height: 5%;
@@ -549,9 +533,6 @@ a{
 .footer_icons{
     margin: 0.2rem -7rem;
 }
-
-
-
 
 @media only screen and (max-width: 481px) {
 
@@ -582,8 +563,8 @@ a{
 
     .course_detail_button_hero{
         display: block;
-        left: 7rem;
-        top: 10rem;
+        left: 8rem;
+        top: 6rem;
         margin: 0.5rem;
     }
 
@@ -607,6 +588,7 @@ a{
     .wapp_icon{
         padding: 1.5rem;
         top: 32.5rem;
+        z-index: 2;
     }
 
     .gg-menu{
@@ -616,7 +598,66 @@ a{
         right: 0;
         margin-right: 1rem;
     }
+
+
+    /* Sectiunea study */
+    .study{
+        height: 100%;
+    }
     
+    .title_study, .study_hr, .study_title_design p{
+        display: none;
+    }
+
+    .study_content{
+        flex-direction: column;
+        padding-left: 7.5rem;
+        
+    }
+
+    .study_content h3{
+        font-size: smaller;
+    }
+
+    .study_content p{
+        font-size: smaller;
+        position: relative;
+        left: -9rem;
+        width: 100vw;
+        z-index: 1;
+    }
+
+    /* Sectiunea robots */
+    .robots{
+        height: 185%;
+    }
+
+    .robots hr{
+        width: 20%;
+    }
+
+    .title_robots{
+        font-size: 1.3rem;
+        padding-top: 0.2rem;
+
+    }
+
+    .robots_images {
+        height: 100vh
+    }
+
+    .robots_images_column{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .robots_images_column img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding: 0 0.5rem;
+    }
 }
 
 @media only screen and (min-width: 481px) {
@@ -624,5 +665,15 @@ a{
     /* Sectiunea Hero */
     .gg-menu{
         display: none;
+    }
+} 
+
+@media only screen and (max-width: 1238px) {
+    /* Contact section */
+    .contact_image{
+        right: 3rem;
+    }
+    .send_button_contact{
+        bottom: 17rem;
     }
 } 
