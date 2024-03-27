@@ -593,7 +593,7 @@ a{
     .wapp_icon{
         padding: 1.5rem;
         top: 32.5rem;
-        z-index: 2;
+        z-index: 10;
     }
 
     .gg-menu{
@@ -637,14 +637,12 @@ a{
         height: 185%;
     }
 
-    .robots hr{
+    .robots hr, .work_hr, .recommend_hr, .hr_prices, .contact_hr{
         width: 20%;
     }
 
     .title_robots{
-        font-size: 1.3rem;
         padding-top: 0.2rem;
-
     }
 
     .robots_images {
@@ -667,10 +665,6 @@ a{
     /* Sectiunea work */
     .work{
         height: 135%;
-    }
-
-    .work_hr{
-        width: 20%;
     }
 
     .work_image_div{
@@ -781,7 +775,137 @@ a{
         left: 15rem;
    }
 
+   /* Recommend section */
+   .recommend{
+    height: 130%;
+    }
 
+    .recommend_first_box{
+        flex-direction: column;
+        width: 90rem;
+        margin-left: 5%;
+        gap: 1rem;
+    }
+
+    /* Prices section */
+    .prices{
+        height: 170%;
+    }
+
+    .title_prices{
+        width: 15rem;
+        margin-left: 30%;
+        margin-top: -3rem;
+    }
+
+    .price_first_box{
+        flex-direction: column;
+        width: 90rem;
+        margin-left: 12%;
+        gap: 1rem;
+    }
+
+    /* Contact section */
+    .contact{
+        height: 50%;
+    }
+    
+    .title_contact{
+        margin-top: -3rem;
+    }
+
+    input{
+        width: 15%;
+    }
+    
+    textarea{
+        left: 6rem;
+        width: 30%;
+    }
+
+    .contact_image{
+        left: 16rem;
+        bottom: 10rem;
+    }
+
+    .send_button_contact{
+        padding: 1rem 1rem;
+        border-radius: 15px;
+        left: 8rem;
+        top: 10rem;
+        text-align: center;
+    }
+
+    .send_but{
+        line-height: 0;
+        height: 0;
+    }
+
+    /* info section */
+    .info{
+        height: 50%;
+        position: relative;
+    }
+
+    .footer_nav{
+        flex-direction: column;
+    }
+
+    .footer_approuch{
+        position: absolute;
+        padding-top: 2rem;
+    }
+
+    .fa1{
+        left: 7rem;
+        bottom: 17rem;
+    }
+
+    .fa2{
+        left: 7rem;
+        bottom: 12rem;
+    }
+
+    .fa3{
+        left: 7rem;
+        bottom: 7rem;
+    }
+    
+    .fa4{
+        left: 7rem;
+        bottom: 1rem;
+    }
+
+    .fi1{
+        left: 20rem;
+        bottom: 15rem;
+    }
+
+    .fi2{
+        left: 20rem;
+        bottom: 11rem;
+    }
+
+    .fi3{
+        left: 20rem;
+        bottom: 6rem;
+    }
+
+
+    .footer_icons{
+        position: absolute;
+        padding-top: 2rem;
+    }
+
+    .info_img{
+        width: 210%;
+    }
+
+    .footer_nav1{
+        position: absolute;
+        bottom: 1rem;
+        left: 10rem;
+    }
 }
 
 @media only screen and (min-width: 481px) {
